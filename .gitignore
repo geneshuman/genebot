@@ -1,0 +1,11 @@
+# Secrets and sensitive files
+*.key
+*.pem
+*.env
+.env*
+credentials.json
+.config/
+
+# Node / temp
+node_modules/
+*.log

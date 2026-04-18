@@ -1,0 +1,108 @@
+{
+  "shows": [
+    {
+      "name": "The Boys",
+      "status": "08/04/2026",
+      "source": "Prime Video / Deadline",
+      "last_updated": "2026-04-05T19:10:00Z",
+      "history": ["Season 5 (Final) confirmed for April 8, 2026 premiere on Prime Video. World premiere in Rome on March 19."]
+    },
+    {
+      "name": "Consider Phlebas",
+      "status": "in development",
+      "source": "Deadline",
+      "last_updated": "2026-04-05T17:05:00Z",
+      "history": ["Amazon MGM Studios confirmed in Feb 2025 development of adaptation with Charles Yu and Chloé Zhao."]
+    },
+    {
+      "name": "8 10 cats does countdown",
+      "status": "17/04/2026",
+      "source": "British Comedy Guide / Channel 4",
+      "last_updated": "2026-04-05T17:05:00Z",
+      "history": ["Series 27 Episode 3 scheduled for April 17, 2026 on Channel 4."]
+    },
+    {
+      "name": "impractical jokers",
+      "status": "renewed",
+      "source": "Deadline / TBS",
+      "last_updated": "2026-04-05T17:15:00Z",
+      "history": ["Season 12 finale aired March 19-20, 2026. Renewed for Season 13 at TBS."]
+    },
+    {
+      "name": "frieren",
+      "status": "10/2027",
+      "source": "Hypebeast / GamesRadar",
+      "last_updated": "2026-04-05T17:15:00Z",
+      "history": ["Previously: uncertain", "Season 2 officially premiered January 16, 2026.", "Season 3 confirmed for October 2027 release."]
+    },
+    {
+      "name": "for all mankind",
+      "status": "currently airing",
+      "source": "Deadline / Apple TV+",
+      "last_updated": "2026-04-05T17:15:00Z",
+      "history": ["Season 5 premiered March 27, 2026. Renewed for 6th and final season. Star City spin-off premieres May 29, 2026."]
+    },
+    {
+      "name": "trailer park boys",
+      "status": "April/2026",
+      "source": "Deadline / SwearNet",
+      "last_updated": "2026-04-05T17:25:00Z",
+      "history": ["Season 13 (10 episodes) confirmed for April 2026 premiere on rebranded TPB+ platform."]
+    },
+    {
+      "name": "taskmaster",
+      "status": "09/04/2026",
+      "source": "Channel 4 Official",
+      "last_updated": "2026-04-05T17:25:00Z",
+      "history": ["Series 21 confirmed for April 9, 2026 premiere on Channel 4."]
+    },
+    {
+      "name": "house of the dragon",
+      "status": "06/2026",
+      "source": "HBO / Deadline",
+      "last_updated": "2026-04-05T17:25:00Z",
+      "history": ["Season 3 confirmed for June 2026 premiere. Filming wrapped October 2025."]
+    },
+    { "name": "ghost in the shell 2026", "status": "07/2026", "source": "Science SARU / Prime Video", "last_updated": "2026-04-05T17:35:00Z", "history": ["Science SARU announced July 2026 premiere on Prime Video."] },
+    { "name": "apothecary diaries", "status": "10/2026", "source": "TOHO Animation / ANN", "last_updated": "2026-04-05T17:35:00Z", "history": ["Season 3 (two-cour) Part 1 confirmed for October 2026. Season 2 aired Jan-July 2025."] },
+    { "name": "silo", "status": "Summer/2026", "source": "Apple TV+ / Rebecca Ferguson", "last_updated": "2026-04-05T17:35:00Z", "history": ["Rebecca Ferguson confirmed Season 3 for Summer 2026 on TODAY show. Filming wrapped May 2025."] },
+    { "name": "dune prophecy", "status": "Late/2026", "source": "HBO Max / Inverse", "last_updated": "2026-04-05T17:45:00Z", "history": ["HBO Max confirmed Late 2026 rollout for Season 2. Production underway as of late 2025."] },
+    { "name": "made in abyss", "status": "2026", "source": "Kadokawa / Polygon", "last_updated": "2026-04-05T17:45:00Z", "history": ["No future air date confirmed as of early 2026.", "New film series announced August 2025; first part 'Mezameru Shinpi' slated for 2026 release."] },
+    { "name": "the last of us", "status": "2027", "source": "HBO / Variety", "last_updated": "2026-04-05T17:45:00Z", "history": ["Season 2 premiered April 13, 2025.", "HBO CEO Casey Bloys confirmed Season 3 for 2027 release; filming begins April 2026."] },
+    { "name": "love death robots", "status": "renewed", "source": "Netflix / Wikipedia", "last_updated": "2026-04-05T17:55:00Z", "history": ["Volume 4 premiered May 15, 2025. Renewed for Volume 5."] },
+    { "name": "murderbot", "status": "Late/2026", "source": "Apple TV+ / Collider", "last_updated": "2026-04-05T17:55:00Z", "history": ["Season 1 (Series order) premiered May 16, 2025.", "Season 2 expected late 2026 or early 2027."] },
+    { "name": "rick and morty", "status": "24/05/2026", "source": "Adult Swim / Variety", "last_updated": "2026-04-05T17:55:00Z", "history": ["Season 8 aired May-July 2025.", "Season 9 confirmed for May 24, 2026 premiere on Adult Swim."] },
+    { "name": "ted lasso", "status": "Summer/2026", "source": "Apple TV+ Official", "last_updated": "2026-04-05T18:05:00Z", "history": ["Apple TV+ officially announced Season 4 revival on Jan 28, 2026, set for Summer 2026 premiere."] },
+    { "name": "Blade Runner 2099", "status": "2026", "source": "Prime Video / Deadline", "last_updated": "2026-04-05T18:05:00Z", "history": ["Prime Video/Deadline confirmed 2026 release slate. Starring Michelle Yeoh and Hunter Schafer."] },
+    { "name": "neuromancer", "status": "Late/2026", "source": "Apple TV+ / MovieWeb", "last_updated": "2026-04-05T18:05:00Z", "history": ["Apple TV+ confirms Late 2026 premiere for cyberpunk series starring Callum Turner."] },
+    { "name": "the bear", "status": "June/2026", "source": "FX / Deadline", "last_updated": "2026-04-05T18:15:00Z", "history": ["Season 4 premiered June 25, 2025.", "Season 5 confirmed for 2026; projected June 2026 premiere based on previous patterns."] },
+    { "name": "always sunny", "status": "Late/2026", "source": "FXX / Deadline", "last_updated": "2026-04-05T18:15:00Z", "history": ["Season 17 aired July-August 2025.", "Season 18 production underway as of March 2026; expected Late 2026 release."] },
+    { "name": "solo leveling", "status": "renewed", "source": "A-1 Pictures / Art Threat", "last_updated": "2026-04-05T19:30:00Z", "history": ["Season 2 aired Jan-March 2025.", "Season 3 confirmed by A-1 Pictures producer; expected Late 2026 or 2027."] },
+    { "name": "edgerunners", "status": "2026", "source": "Netflix / CD Projekt Red", "last_updated": "2026-04-05T19:20:00Z", "history": ["Netflix announced new Cyberpunk animation project in collaboration with CD Projekt Red.", "Production underway; rumored late 2026 release."] },
+    { "name": "futurama", "status": "2026", "source": "Hulu / Variety", "last_updated": "2026-04-05T18:25:00Z", "history": ["Season 13 (all 10 episodes) premiered Sept 15, 2025 on Hulu.", "Season 14 confirmed for 2026 release."] },
+    { "name": "vought rising", "status": "renewed", "source": "Prime Video / Deadline", "last_updated": "2026-04-05T18:25:00Z", "history": ["The Boys prequel series confirmed. Filming wrapped March 11, 2026. Premiere date TBA."] },
+    { "name": "dan da dan", "status": "2027", "source": "Science SARU / Variety", "last_updated": "2026-04-05T18:25:00Z", "history": ["Season 1 aired Oct-Dec 2024.", "Season 2 aired July-Sept 2025.", "Season 3 confirmed for 2027 release."] },
+    { "name": "star city", "status": "29/05/2026", "source": "Apple TV+ / Deadline", "last_updated": "2026-04-05T18:35:00Z", "history": ["Deadline/Apple TV+ confirmed May 29, 2026 premiere. Spinoff focuses on Soviet space program."] },
+    { "name": "southpark", "status": "2026", "source": "Comedy Central / Wikipedia", "last_updated": "2026-04-05T18:35:00Z", "history": ["Renewed through 2027 (Season 30). Season 27 aired July 2025.", "Season 28 expected in 2026."] },
+    { "name": "shogun", "source": "FX / Hulu", "status": "renewed", "last_updated": "2026-04-05T18:35:00Z", "history": ["Seasons 2 and 3 confirmed. Filming for Season 2 set to begin January 2026; expected 2027."] },
+    { "name": "beavis & butthead", "source": "Comedy Central / Variety", "status": "renewed", "last_updated": "2026-04-05T18:45:00Z", "history": ["Season 11 (Revival Season 3) premiered Sept 3, 2025 on Comedy Central.", "Season 12 in production as of late 2025."] },
+    { "name": "the diplomat", "status": "Late/2026", "source": "Netflix / WhatsOnNetflix", "last_updated": "2026-04-05T18:45:00Z", "history": ["Season 3 premiered Oct 16, 2025.", "Season 4 confirmed; expected Late 2026 release."] },
+    { "name": "pluribus", "status": "uncertain", "source": "n/a", "last_updated": "2026-04-05T15:58:00Z", "history": [] },
+    { "name": "fallout", "status": "renewed", "source": "Prime Video Official", "last_updated": "2026-04-05T18:45:00Z", "history": ["Season 2 premiered Dec 16, 2025; finale aired Feb 4, 2026. Renewed for Season 3."] },
+    { "name": "black mirror", "status": "renewed", "source": "Netflix / Variety", "last_updated": "2026-04-05T18:45:00Z", "history": ["Season 7 premiered April 10, 2025.", "Season 8 confirmed by Charlie Brooker in Jan 2026; expected 2027."] },
+    { "name": "orville", "status": "renewed", "source": "Hulu / THR", "last_updated": "2026-04-05T18:55:00Z", "history": ["Season 4 confirmed. Seth MacFarlane confirmed in March 2026 that scripts are written, waiting on production schedule."] },
+    { "name": "A Knight of the Seven Kingdoms", "status": "18/01/2026", "source": "HBO / Wikipedia", "last_updated": "2026-04-05T18:55:00Z", "history": ["Season 1 (6 episodes) premiered January 18, 2026. Renewed for Season 2."] },
+    {
+      "name": "severance",
+      "status": "Summer/2027",
+      "source": "Newsweek / Apple TV News",
+      "last_updated": "2026-04-05T18:55:00Z",
+      "history": ["Previously: renewed", "Season 2 premiered Jan 17, 2025.", "Season 3 filming set for April-Dec 2026; expected release Summer 2027."]
+    },
+    { "name": "white lotus", "status": "renewed", "source": "HBO / Variety", "last_updated": "2026-04-05T18:55:00Z", "history": ["Season 3 premiered Feb 16, 2025.", "Season 4 confirmed; production set for spring 2026 in France; expected 2027."] },
+    { "name": "Dungeon Crawler Carl", "status": "in development", "source": "Variety / Peacock", "last_updated": "2026-04-05T19:05:00Z", "history": ["Series adaptation officially in development at Peacock as of April 2026. Seth MacFarlane producing."] },
+    { "name": "primal", "status": "currently airing", "source": "Adult Swim / Deadline", "last_updated": "2026-04-05T19:05:00Z", "history": ["Season 3 premiered January 11, 2026 on Adult Swim."] },
+    { "name": "love on the spectrum", "status": "currently airing", "source": "Netflix / THR", "last_updated": "2026-04-05T19:05:00Z", "history": ["Season 3 released April 2025.", "Season 4 premiered April 1, 2026 on Netflix."] },
+    { "name": "pluribus", "status": "renewed", "source": "Apple TV+ / Variety", "last_updated": "2026-04-05T19:40:00Z", "history": ["Season 1 (Vince Gilligan series starring Rhea Seehorn) premiered Nov 7, 2025; finale aired Dec 24, 2025.", "Renewed for Season 2; production expected spring 2026."] }
+  ]
+}
