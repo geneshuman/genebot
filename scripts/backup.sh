@@ -16,5 +16,5 @@ fi
 
 TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
 git commit -m "backup: $TIMESTAMP"
-git push origin main --set-upstream 2>&1 || git push origin master --set-upstream 2>&1
+git push origin master --set-upstream 2>&1
 echo "Backup complete: $TIMESTAMP"
