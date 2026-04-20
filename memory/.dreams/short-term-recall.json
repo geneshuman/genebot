@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-19T22:11:24.558Z",
+  "entries": {
+    "memory:memory/2026-04-11.md:27:46": {
+      "key": "memory:memory/2026-04-11.md:27:46",
+      "path": "memory/2026-04-11.md",
+      "startLine": 27,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "- `thinkingDefault`: not set (off) ## Lessons Learned - `sandbox: false` is INVALID — use `{ \"mode\": \"off\" }` for disabling sandbox - `messageContent` is NOT a valid Discord intents key in OpenClaw config - `allow: true` at guild level is NOT a valid key — to allow all channels, remove the `channels` sub-key entirely - `/reset` sent via `sessions_send` goes into chat as a message, not a slash command — Carlos riffs on it in-character instead of resetting - `idleMinutes` is the simplest way to prevent old messages polluting chatbot context — no cron needed - WS `sessions.reset` RPC requires `operator.admin` scope; scope passing via shared-secret WS auth is complex - HTTP session reset endpoi",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.46249552369117736,
+      "maxScore": 0.46249552369117736,
+      "firstRecalledAt": "2026-04-19T22:11:24.558Z",
+      "lastRecalledAt": "2026-04-19T22:11:24.558Z",
+      "queryHashes": [
+        "9a9ebdba8e9c"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "sub-key",
+        "sessions-send",
+        "in-character",
+        "sessions.reset",
+        "operator.admin",
+        "shared-secret",
+        "thinkingdefault",
+        "not"
+      ]
+    }
+  }
+}
