@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-19T22:11:24.558Z",
+  "updatedAt": "2026-04-25T04:02:40.880Z",
   "entries": {
     "memory:memory/2026-04-11.md:27:46": {
       "key": "memory:memory/2026-04-11.md:27:46",
@@ -31,6 +31,100 @@
         "shared-secret",
         "thinkingdefault",
         "not"
+      ]
+    },
+    "memory:memory/2026-04-05.md:1:15": {
+      "key": "memory:memory/2026-04-05.md:1:15",
+      "path": "memory/2026-04-05.md",
+      "startLine": 1,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "# Sunday, April 5th, 2026 - **13:21 UTC**: Initialized as **genebot**. - **User identified**: Gene, an overeducated polymath at the intersection of arts/tech. - **Identity records updated**: Edited `IDENTITY.md` and `USER.md`. - **Next steps**: Provide Gene with an overview of capabilities and begin collaborative work. - **14:25 UTC**: Established a strict security policy. genebot is running in a dedicated, sandboxed Docker instance. - **14:27 UTC**: Configured a weekly security audit (Saturdays at 12 AM EST) via cron (`healthcheck:security-audit`). Findings will be emailed to `gene@entropyandsons.com`. - **14:28 UTC**: Configured a heartbeat task to monitor Gmail for unread replies from",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8979390263557434,
+      "maxScore": 0.4521643877029419,
+      "firstRecalledAt": "2026-04-25T04:01:47.797Z",
+      "lastRecalledAt": "2026-04-25T04:02:40.880Z",
+      "queryHashes": [
+        "7e516164651a",
+        "f5cff15dd8fc"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "arts/tech",
+        "identity.md",
+        "user.md",
+        "security-audit",
+        "entropyandsons.com",
+        "sunday",
+        "april",
+        "5th"
+      ]
+    },
+    "memory:memory/2026-04-25.md:1:13": {
+      "key": "memory:memory/2026-04-25.md:1:13",
+      "path": "memory/2026-04-25.md",
+      "startLine": 1,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "# Saturday, April 25th, 2026 ## 04:01 UTC — Weekly Security Audit (Scheduled Cron) **Audit result:** 0 critical · 1 warning · 1 info - ⚠️ **WARNING**: `gateway.trusted_proxies_missing` — trustedProxies is empty while gateway.bind is loopback. Low risk if Control UI is not behind a reverse proxy. - ℹ️ **INFO**: Attack surface clean — no open groups, webhooks disabled, trust model is single-operator personal assistant. **Update status:** OpenClaw update available — `npm 2026.4.23` on stable channel. **Email sent:** Report sent to `gene@entropyandsons.com` (message ID: `19dc2cd9ed0503a7`).",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.5070546627044678,
+      "maxScore": 0.5070546627044678,
+      "firstRecalledAt": "2026-04-25T04:02:40.880Z",
+      "lastRecalledAt": "2026-04-25T04:02:40.880Z",
+      "queryHashes": [
+        "f5cff15dd8fc"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "gateway",
+        "gateway.trusted-proxies-missing",
+        "gateway.bind",
+        "single-operator",
+        "2026.4.23",
+        "entropyandsons.com",
+        "saturday",
+        "april"
+      ]
+    },
+    "memory:memory/2026-04-11.md:1:32": {
+      "key": "memory:memory/2026-04-11.md:1:32",
+      "path": "memory/2026-04-11.md",
+      "startLine": 1,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "# Memory - 2026-04-11 ## Config Changes Made Today ### informabot (new agent) - Added webchat binding with peer `informabot-op` - Sandbox disabled correctly: `\"sandbox\": { \"mode\": \"off\" }` (NOT `\"sandbox\": false` — that bricked the system, Gene had to fix manually) - Added `tools.fs.workspaceOnly: false` to allow reading outside its workspace - `thinkingDefault: \"high\"` - Model: claude-sonnet-4-6 ### socialbot (social) - Added channel `996438413131649024` (bizdev) to allowed channels - Added `mentionPatterns`: `[\"<@1490087003839270972>\", \"<@!1490087003839270972>\", \"@genebot\", \"genebot\", \"<@&1490089320344977561>\"]` - IMPORTANT: `<@&1490089320344977561>` is a **role mention** — Discord re",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.42603369951248166,
+      "maxScore": 0.42603369951248166,
+      "firstRecalledAt": "2026-04-25T04:02:40.880Z",
+      "lastRecalledAt": "2026-04-25T04:02:40.880Z",
+      "queryHashes": [
+        "f5cff15dd8fc"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "informabot-op",
+        "tools.fs.workspaceonly",
+        "claude-sonnet-4-6",
+        "config",
+        "changes",
+        "made",
+        "informabot",
+        "new"
       ]
     }
   }
