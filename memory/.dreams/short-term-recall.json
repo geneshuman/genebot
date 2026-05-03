@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-02T04:07:01.681Z",
+  "updatedAt": "2026-05-02T12:23:49.660Z",
   "entries": {
     "memory:memory/2026-04-11.md:27:46": {
       "key": "memory:memory/2026-04-11.md:27:46",
@@ -170,15 +170,16 @@
       "endLine": 38,
       "source": "memory",
       "snippet": "- SUID binaries: Standard Debian set, no anomalies - Gateway bind: 'lan' mode, port 8563, no public exposure **Email sent:** Report sent to `gene@entropyandsons.com` (message ID: `19de6ddeba230726`) **Pending Gene's approval:** 1. Tighten `/home/node/.openclaw/workspace/credentials.json` to 600 2. Delete `/home/node/.openclaw/openclaw.json~` backup 3. Manual OpenClaw update to 2026.4.29 (optional)",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.4905961543321609,
+      "totalScore": 0.9459232062101364,
       "maxScore": 0.4905961543321609,
       "firstRecalledAt": "2026-05-02T04:07:01.681Z",
-      "lastRecalledAt": "2026-05-02T04:07:01.681Z",
+      "lastRecalledAt": "2026-05-02T12:23:49.660Z",
       "queryHashes": [
-        "cdc543e5ae93"
+        "cdc543e5ae93",
+        "1e37aa337731"
       ],
       "recallDays": [
         "2026-05-02"
