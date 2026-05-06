@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-05T04:01:31.536Z",
+  "updatedAt": "2026-05-06T01:58:06.930Z",
   "entries": {
     "memory:memory/2026-04-11.md:27:46": {
       "key": "memory:memory/2026-04-11.md:27:46",
@@ -9,23 +9,25 @@
       "endLine": 46,
       "source": "memory",
       "snippet": "- `thinkingDefault`: not set (off) ## Lessons Learned - `sandbox: false` is INVALID — use `{ \"mode\": \"off\" }` for disabling sandbox - `messageContent` is NOT a valid Discord intents key in OpenClaw config - `allow: true` at guild level is NOT a valid key — to allow all channels, remove the `channels` sub-key entirely - `/reset` sent via `sessions_send` goes into chat as a message, not a slash command — Carlos riffs on it in-character instead of resetting - `idleMinutes` is the simplest way to prevent old messages polluting chatbot context — no cron needed - WS `sessions.reset` RPC requires `operator.admin` scope; scope passing via shared-secret WS auth is complex - HTTP session reset endpoi",
-      "recallCount": 5,
+      "recallCount": 6,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2.2939585238695144,
-      "maxScore": 0.46249552369117736,
+      "totalScore": 2.768857410550117,
+      "maxScore": 0.474898886680603,
       "firstRecalledAt": "2026-04-19T22:11:24.558Z",
-      "lastRecalledAt": "2026-05-04T19:28:43.528Z",
+      "lastRecalledAt": "2026-05-06T01:58:06.930Z",
       "queryHashes": [
         "9a9ebdba8e9c",
         "88c0ba2e82da",
         "54b258589328",
         "9899afa3f741",
-        "b87a4669fc45"
+        "b87a4669fc45",
+        "0c92b2df20a2"
       ],
       "recallDays": [
         "2026-04-19",
-        "2026-05-04"
+        "2026-05-04",
+        "2026-05-06"
       ],
       "conceptTags": [
         "sub-key",
@@ -116,22 +118,24 @@
       "endLine": 32,
       "source": "memory",
       "snippet": "# Memory - 2026-04-11 ## Config Changes Made Today ### informabot (new agent) - Added webchat binding with peer `informabot-op` - Sandbox disabled correctly: `\"sandbox\": { \"mode\": \"off\" }` (NOT `\"sandbox\": false` — that bricked the system, Gene had to fix manually) - Added `tools.fs.workspaceOnly: false` to allow reading outside its workspace - `thinkingDefault: \"high\"` - Model: claude-sonnet-4-6 ### socialbot (social) - Added channel `996438413131649024` (bizdev) to allowed channels - Added `mentionPatterns`: `[\"<@1490087003839270972>\", \"<@!1490087003839270972>\", \"@genebot\", \"genebot\", \"<@&1490089320344977561>\"]` - IMPORTANT: `<@&1490089320344977561>` is a **role mention** — Discord re",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.3483720242977142,
-      "maxScore": 0.46473149359226223,
+      "totalScore": 1.8191644251346588,
+      "maxScore": 0.47079240083694457,
       "firstRecalledAt": "2026-04-25T04:02:40.880Z",
-      "lastRecalledAt": "2026-05-05T04:01:31.536Z",
+      "lastRecalledAt": "2026-05-06T01:58:06.930Z",
       "queryHashes": [
         "f5cff15dd8fc",
         "88c0ba2e82da",
-        "e1c137a8b466"
+        "e1c137a8b466",
+        "0c92b2df20a2"
       ],
       "recallDays": [
         "2026-04-25",
         "2026-05-04",
-        "2026-05-05"
+        "2026-05-05",
+        "2026-05-06"
       ],
       "conceptTags": [
         "informabot-op",
