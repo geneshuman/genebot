@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-06T01:58:06.930Z",
+  "updatedAt": "2026-05-07T13:19:03.139Z",
   "entries": {
     "memory:memory/2026-04-11.md:27:46": {
       "key": "memory:memory/2026-04-11.md:27:46",
@@ -81,24 +81,26 @@
       "endLine": 13,
       "source": "memory",
       "snippet": "# Saturday, April 25th, 2026 ## 04:01 UTC — Weekly Security Audit (Scheduled Cron) **Audit result:** 0 critical · 1 warning · 1 info - ⚠️ **WARNING**: `gateway.trusted_proxies_missing` — trustedProxies is empty while gateway.bind is loopback. Low risk if Control UI is not behind a reverse proxy. - ℹ️ **INFO**: Attack surface clean — no open groups, webhooks disabled, trust model is single-operator personal assistant. **Update status:** OpenClaw update available — `npm 2026.4.23` on stable channel. **Email sent:** Report sent to `gene@entropyandsons.com` (message ID: `19dc2cd9ed0503a7`).",
-      "recallCount": 5,
+      "recallCount": 6,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2.7169569141662273,
+      "totalScore": 3.1732440180576,
       "maxScore": 0.8026506669318829,
       "firstRecalledAt": "2026-04-25T04:02:40.880Z",
-      "lastRecalledAt": "2026-05-04T10:42:48.410Z",
+      "lastRecalledAt": "2026-05-07T13:19:03.139Z",
       "queryHashes": [
         "f5cff15dd8fc",
         "8478f539917e",
         "cdc543e5ae93",
         "88c0ba2e82da",
-        "54b258589328"
+        "54b258589328",
+        "b6a309476f28"
       ],
       "recallDays": [
         "2026-04-25",
         "2026-05-02",
-        "2026-05-04"
+        "2026-05-04",
+        "2026-05-07"
       ],
       "conceptTags": [
         "gateway",
@@ -186,21 +188,23 @@
       "endLine": 38,
       "source": "memory",
       "snippet": "- SUID binaries: Standard Debian set, no anomalies - Gateway bind: 'lan' mode, port 8563, no public exposure **Email sent:** Report sent to `gene@entropyandsons.com` (message ID: `19de6ddeba230726`) **Pending Gene's approval:** 1. Tighten `/home/node/.openclaw/workspace/credentials.json` to 600 2. Delete `/home/node/.openclaw/openclaw.json~` backup 3. Manual OpenClaw update to 2026.4.29 (optional)",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.4048913210630416,
+      "totalScore": 1.8530383646488189,
       "maxScore": 0.4905961543321609,
       "firstRecalledAt": "2026-05-02T04:07:01.681Z",
-      "lastRecalledAt": "2026-05-05T04:01:31.536Z",
+      "lastRecalledAt": "2026-05-07T13:19:03.139Z",
       "queryHashes": [
         "cdc543e5ae93",
         "1e37aa337731",
-        "e1c137a8b466"
+        "e1c137a8b466",
+        "b6a309476f28"
       ],
       "recallDays": [
         "2026-05-02",
-        "2026-05-05"
+        "2026-05-05",
+        "2026-05-07"
       ],
       "conceptTags": [
         "backup",
