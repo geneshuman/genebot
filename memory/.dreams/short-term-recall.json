@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-10T16:01:42.899Z",
+  "updatedAt": "2026-05-14T02:38:30.720Z",
   "entries": {
     "memory:memory/2026-04-11.md:27:46": {
       "key": "memory:memory/2026-04-11.md:27:46",
@@ -9,25 +9,28 @@
       "endLine": 46,
       "source": "memory",
       "snippet": "- `thinkingDefault`: not set (off) ## Lessons Learned - `sandbox: false` is INVALID — use `{ \"mode\": \"off\" }` for disabling sandbox - `messageContent` is NOT a valid Discord intents key in OpenClaw config - `allow: true` at guild level is NOT a valid key — to allow all channels, remove the `channels` sub-key entirely - `/reset` sent via `sessions_send` goes into chat as a message, not a slash command — Carlos riffs on it in-character instead of resetting - `idleMinutes` is the simplest way to prevent old messages polluting chatbot context — no cron needed - WS `sessions.reset` RPC requires `operator.admin` scope; scope passing via shared-secret WS auth is complex - HTTP session reset endpoi",
-      "recallCount": 6,
+      "recallCount": 8,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2.768857410550117,
-      "maxScore": 0.474898886680603,
+      "totalScore": 3.7336229830980296,
+      "maxScore": 0.4910097151994705,
       "firstRecalledAt": "2026-04-19T22:11:24.558Z",
-      "lastRecalledAt": "2026-05-06T01:58:06.930Z",
+      "lastRecalledAt": "2026-05-14T02:38:30.720Z",
       "queryHashes": [
         "9a9ebdba8e9c",
         "88c0ba2e82da",
         "54b258589328",
         "9899afa3f741",
         "b87a4669fc45",
-        "0c92b2df20a2"
+        "0c92b2df20a2",
+        "02b2a8e4c57d",
+        "426422419995"
       ],
       "recallDays": [
         "2026-04-19",
         "2026-05-04",
-        "2026-05-06"
+        "2026-05-06",
+        "2026-05-14"
       ],
       "conceptTags": [
         "sub-key",
@@ -81,26 +84,28 @@
       "endLine": 13,
       "source": "memory",
       "snippet": "# Saturday, April 25th, 2026 ## 04:01 UTC — Weekly Security Audit (Scheduled Cron) **Audit result:** 0 critical · 1 warning · 1 info - ⚠️ **WARNING**: `gateway.trusted_proxies_missing` — trustedProxies is empty while gateway.bind is loopback. Low risk if Control UI is not behind a reverse proxy. - ℹ️ **INFO**: Attack surface clean — no open groups, webhooks disabled, trust model is single-operator personal assistant. **Update status:** OpenClaw update available — `npm 2026.4.23` on stable channel. **Email sent:** Report sent to `gene@entropyandsons.com` (message ID: `19dc2cd9ed0503a7`).",
-      "recallCount": 6,
+      "recallCount": 7,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 3.1732440180576,
+      "totalScore": 3.659417549470678,
       "maxScore": 0.8026506669318829,
       "firstRecalledAt": "2026-04-25T04:02:40.880Z",
-      "lastRecalledAt": "2026-05-07T13:19:03.139Z",
+      "lastRecalledAt": "2026-05-14T02:28:58.211Z",
       "queryHashes": [
         "f5cff15dd8fc",
         "8478f539917e",
         "cdc543e5ae93",
         "88c0ba2e82da",
         "54b258589328",
-        "b6a309476f28"
+        "b6a309476f28",
+        "58821429ef0e"
       ],
       "recallDays": [
         "2026-04-25",
         "2026-05-02",
         "2026-05-04",
-        "2026-05-07"
+        "2026-05-07",
+        "2026-05-14"
       ],
       "conceptTags": [
         "gateway",
@@ -120,24 +125,27 @@
       "endLine": 32,
       "source": "memory",
       "snippet": "# Memory - 2026-04-11 ## Config Changes Made Today ### informabot (new agent) - Added webchat binding with peer `informabot-op` - Sandbox disabled correctly: `\"sandbox\": { \"mode\": \"off\" }` (NOT `\"sandbox\": false` — that bricked the system, Gene had to fix manually) - Added `tools.fs.workspaceOnly: false` to allow reading outside its workspace - `thinkingDefault: \"high\"` - Model: claude-sonnet-4-6 ### socialbot (social) - Added channel `996438413131649024` (bizdev) to allowed channels - Added `mentionPatterns`: `[\"<@1490087003839270972>\", \"<@!1490087003839270972>\", \"@genebot\", \"genebot\", \"<@&1490089320344977561>\"]` - IMPORTANT: `<@&1490089320344977561>` is a **role mention** — Discord re",
-      "recallCount": 4,
+      "recallCount": 6,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.8191644251346588,
-      "maxScore": 0.47079240083694457,
+      "totalScore": 2.7780609130859375,
+      "maxScore": 0.49573969244956967,
       "firstRecalledAt": "2026-04-25T04:02:40.880Z",
-      "lastRecalledAt": "2026-05-06T01:58:06.930Z",
+      "lastRecalledAt": "2026-05-14T02:38:30.720Z",
       "queryHashes": [
         "f5cff15dd8fc",
         "88c0ba2e82da",
         "e1c137a8b466",
-        "0c92b2df20a2"
+        "0c92b2df20a2",
+        "02b2a8e4c57d",
+        "426422419995"
       ],
       "recallDays": [
         "2026-04-25",
         "2026-05-04",
         "2026-05-05",
-        "2026-05-06"
+        "2026-05-06",
+        "2026-05-14"
       ],
       "conceptTags": [
         "informabot-op",
@@ -157,18 +165,20 @@
       "endLine": 36,
       "source": "memory",
       "snippet": "# Saturday, May 2nd, 2026 ## 04:01 UTC — Weekly Security Audit (Scheduled) **Audit result:** 0 Critical · 1 Warning · 2 Info Note: `openclaw security audit` CLI timed out (possible CLI hang). Manual OS-level audit performed instead. ### ⚠️ WARNING: World-readable Google OAuth client secret - **File:** `/home/node/.openclaw/workspace/credentials.json` — mode 644 - Contains Google OAuth `client_secret` for project `genebot-492413` - Risk: Low (Docker-isolated, single-operator), but world-readable - **Action needed:** Tighten to 600 — requires Gene's approval ### ℹ️ INFO: OpenClaw update available - Installed: `2026.4.15` | Available: `2026.4.29` (latest channel) - Auto-update skipped: `no",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.788078697949776,
+      "totalScore": 1.2590605640710681,
       "maxScore": 0.788078697949776,
       "firstRecalledAt": "2026-05-02T04:07:01.681Z",
-      "lastRecalledAt": "2026-05-02T04:07:01.681Z",
+      "lastRecalledAt": "2026-05-14T02:28:58.211Z",
       "queryHashes": [
-        "cdc543e5ae93"
+        "cdc543e5ae93",
+        "58821429ef0e"
       ],
       "recallDays": [
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-14"
       ],
       "conceptTags": [
         "os-level",
@@ -188,25 +198,27 @@
       "endLine": 38,
       "source": "memory",
       "snippet": "- SUID binaries: Standard Debian set, no anomalies - Gateway bind: 'lan' mode, port 8563, no public exposure **Email sent:** Report sent to `gene@entropyandsons.com` (message ID: `19de6ddeba230726`) **Pending Gene's approval:** 1. Tighten `/home/node/.openclaw/workspace/credentials.json` to 600 2. Delete `/home/node/.openclaw/openclaw.json~` backup 3. Manual OpenClaw update to 2026.4.29 (optional)",
-      "recallCount": 5,
+      "recallCount": 6,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2.31435435116291,
+      "totalScore": 2.7869144618511195,
       "maxScore": 0.4905961543321609,
       "firstRecalledAt": "2026-05-02T04:07:01.681Z",
-      "lastRecalledAt": "2026-05-10T16:01:42.899Z",
+      "lastRecalledAt": "2026-05-14T02:28:58.211Z",
       "queryHashes": [
         "cdc543e5ae93",
         "1e37aa337731",
         "e1c137a8b466",
         "b6a309476f28",
-        "1d449cc664cd"
+        "1d449cc664cd",
+        "58821429ef0e"
       ],
       "recallDays": [
         "2026-05-02",
         "2026-05-05",
         "2026-05-07",
-        "2026-05-10"
+        "2026-05-10",
+        "2026-05-14"
       ],
       "conceptTags": [
         "backup",
