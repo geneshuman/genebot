@@ -3,8 +3,6 @@
 set -e
 
 WORKSPACE="/home/node/.openclaw/workspace"
-SSH_CONFIG="/home/node/.openclaw/ssh/config"
-export GIT_SSH_COMMAND="ssh -F $SSH_CONFIG"
 
 cd "$WORKSPACE"
 
