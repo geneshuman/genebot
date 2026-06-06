@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-16T00:49:08.749Z",
+  "updatedAt": "2026-06-05T12:19:08.792Z",
   "entries": {
     "memory:memory/2026-04-11.md:27:46": {
       "key": "memory:memory/2026-04-11.md:27:46",
@@ -88,13 +88,13 @@
       "endLine": 13,
       "source": "memory",
       "snippet": "# Saturday, April 25th, 2026 ## 04:01 UTC — Weekly Security Audit (Scheduled Cron) **Audit result:** 0 critical · 1 warning · 1 info - ⚠️ **WARNING**: `gateway.trusted_proxies_missing` — trustedProxies is empty while gateway.bind is loopback. Low risk if Control UI is not behind a reverse proxy. - ℹ️ **INFO**: Attack surface clean — no open groups, webhooks disabled, trust model is single-operator personal assistant. **Update status:** OpenClaw update available — `npm 2026.4.23` on stable channel. **Email sent:** Report sent to `gene@entropyandsons.com` (message ID: `19dc2cd9ed0503a7`).",
-      "recallCount": 9,
+      "recallCount": 10,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 4.6509229592478425,
+      "totalScore": 5.110601370731607,
       "maxScore": 0.8026506669318829,
       "firstRecalledAt": "2026-04-25T04:02:40.880Z",
-      "lastRecalledAt": "2026-05-16T00:49:08.749Z",
+      "lastRecalledAt": "2026-06-05T12:19:08.792Z",
       "queryHashes": [
         "f5cff15dd8fc",
         "8478f539917e",
@@ -104,7 +104,8 @@
         "b6a309476f28",
         "58821429ef0e",
         "5beffb9d9b4c",
-        "f88be98eef00"
+        "f88be98eef00",
+        "67776991b166"
       ],
       "recallDays": [
         "2026-04-25",
@@ -112,7 +113,8 @@
         "2026-05-04",
         "2026-05-07",
         "2026-05-14",
-        "2026-05-16"
+        "2026-05-16",
+        "2026-06-05"
       ],
       "conceptTags": [
         "gateway",
