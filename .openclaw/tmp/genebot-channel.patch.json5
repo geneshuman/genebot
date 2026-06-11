@@ -1,0 +1,15 @@
+{
+  channels: {
+    discord: {
+      guilds: {
+        "583365254428360714": {
+          channels: {
+            "1514356167340589237": {
+              requireMention: false,
+            },
+          },
+        },
+      },
+    },
+  },
+}

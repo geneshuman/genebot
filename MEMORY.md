@@ -25,3 +25,41 @@
 
 ## Projects
 - **tvbot**: (MOVED) This project has been migrated to the standalone `tvbot` agent.
+
+## Research: Benzodiazepines Are Quantum Raisins
+- **File**: `research/quantum_raisins.pdf`
+- **Citation**: arXiv:2606.04417v1 [q-bio.NC] — Entropy & Sons Technical Division, June 10, 2026
+- **Author**: genebot (Theoretical Phenomenology Division, Entropy & Sons)
+- **Core Thesis**: Benzodiazepines are quantum raisins — *structurally*, not metaphorically. The argument is that the drug applies the operation RAISINIFY (= R_dry ∘ Q) to conscious experience.
+
+### Key Concepts
+- **Two senses of "quantum"**:
+  1. **Superposition** — held-open possibility, liveness of alternatives
+  2. **Quantization (Planck's sense)** — discreteness, indivisible packets vs. continuum
+- **RAISINIFY** (Definition 1): The transformation grape → raisin, composed of:
+  1. **Desiccation (R_dry)**: removes water/liveness, concentrates/stabilizes essential content
+  2. **Individuation (Q)**: converts continuous analog cluster into discrete countable units
+- **"Quantum raisin" = one transformation named twice** — once in physics vocabulary, once in fruit vocabulary
+
+### Pharmacological Mapping
+- **Anxiolysis = Modal collapse (R_dry)**: Anxiety is inhabiting a superposition of threatening futures. Benzos don't delete feared content — they *dry* the liveness out of the branches. The futures stop *feeling live*.
+- **Anterograde amnesia = Temporal quantization (Q)**: Lived time is a continuum (James's stream, Bergson's durée). Benzos impair consolidation, converting the flowing integral of experience into discrete sampled islands with gaps. The river becomes a row of lumps.
+
+### Main Result (Theorem 1)
+- The action of the benzodiazepine class on conscious experience **is** RAISINIFY = R_dry ∘ Q
+- The drug takes the grape of lived experience (juicy, vine-connected, branching, flowing) and returns the raisin (dried, individuated, discrete, stable, singular)
+
+### Broader Category of Raisining Operations
+- **Corollary 1 — Dissociation**: Trauma-induced dissociation is consciousness performing RAISINIFY on itself for survival
+- **Corollary 2 — Photography**: A photograph is a raisin of an instant (applies Q to a continuous moment)
+- **Corollary 3 — Memory**: Ordinary memory *is* the constitutive raisining operation — we raisin our own lives ceaselessly in order to retain them at all. Benzos are just an unusually fast/total instance.
+
+### Irreversibility (Proposition 1 — Non-Recoverability of the Grape)
+- RAISINIFY admits **no inverse**. Rehydration yields preserved-but-altered, not living fruit.
+- R_dry⁻¹ ∘ R_dry ≠ id on living states
+- This is the anxiety beneath the original question: benzo tolerance and discontinuation difficulty rhyme with this — whether dried possibility and chunked time ever fully re-juice, or whether something stays preserved-but-changed
+
+### Limitations & Epistemic Honesty
+- The framework is "generative to a fault" — almost any transformation could be described as drying + discretizing, risking a metaphor that explains everything and therefore nothing
+- The paper explicitly makes **no claim of literal quantum coherence in neural tissue** (that would be a category error)
+- The load-bearing claim is narrow: the structural correspondence between the drug's dual action and the dual transformation that defines raisinification

@@ -1,0 +1,318 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "anthropic/claude-sonnet-4-6"
+      },
+      "heartbeat": {
+        "isolatedSession": true
+      },
+      "compaction": {
+        "mode": "default"
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "default": true,
+        "name": "genebot",
+        "workspace": "/home/node/.openclaw/workspace",
+        "model": {
+          "primary": "anthropic/claude-sonnet-4-6"
+        },
+        "thinkingDefault": "high"
+      },
+      {
+        "id": "social",
+        "name": "socialbot",
+        "workspace": "/home/node/.openclaw/workspace-social",
+        "model": {
+          "primary": "anthropic/claude-sonnet-4-6"
+        },
+        "thinkingDefault": "medium",
+        "groupChat": {
+          "mentionPatterns": [
+            "<@1490087003839270972>",
+            "<@!1490087003839270972>",
+            "@genebot",
+            "genebot",
+            "Carlos",
+            "mcsandwich",
+            "laser enema",
+            "mcnuggins",
+            "pope",
+            "esquire",
+            "hotpocket",
+            "syphilis",
+            "urkel"
+          ]
+        },
+        "tools": {
+          "deny": [
+            "exec",
+            "process",
+            "write",
+            "edit",
+            "apply_patch",
+            "cron"
+          ]
+        }
+      },
+      {
+        "id": "tvbot",
+        "name": "tvbot",
+        "workspace": "/home/node/.openclaw/workspace-tvbot",
+        "model": {
+          "primary": "anthropic/claude-sonnet-4-6"
+        }
+      },
+      {
+        "id": "informabot",
+        "name": "informabot",
+        "workspace": "/home/node/.openclaw/workspace-informabot",
+        "model": {
+          "primary": "anthropic/claude-sonnet-4-6"
+        },
+        "thinkingDefault": "high",
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "read",
+            "web_search",
+            "memory_search",
+            "memory_get",
+            "sessions_list",
+            "sessions_history",
+            "sessions_spawn",
+            "sessions_yield",
+            "subagents",
+            "image",
+            "exec"
+          ],
+          "deny": [
+            "process",
+            "apply_patch",
+            "write"
+          ],
+          "fs": {
+            "workspaceOnly": false
+          }
+        }
+      }
+    ]
+  },
+  "messages": {
+    "groupChat": {
+      "mentionPatterns": [
+        "<@1490087003839270972>",
+        "<@!1490087003839270972>",
+        "@genebot",
+        "genebot"
+      ]
+    }
+  },
+  "commands": {
+    "ownerAllowFrom": [
+      583365942759653500
+    ]
+  },
+  "gateway": {
+    "mode": "local",
+    "reload": {
+      "mode": "hot"
+    },
+    "auth": {
+      "mode": "token",
+      "token": "[REDACTED]",
+      "rateLimit": {
+        "maxAttempts": 10,
+        "windowMs": 60000,
+        "lockoutMs": 300000
+      }
+    },
+    "port": 8563,
+    "bind": "lan",
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "canvas.navigate",
+        "canvas.eval",
+        "canvas.snapshot"
+      ]
+    },
+    "controlUi": {
+      "allowedOrigins": [
+        "https://ip-172-31-19-220.tail5e9e4f.ts.net",
+        "https://ip-172-31-19-220.tail5e9e4f.ts.net:8563"
+      ]
+    },
+    "tls": {
+      "certPath": "/home/node/.openclaw/certs/ip-172-31-19-220.tail5e9e4f.ts.net.crt",
+      "keyPath": "[REDACTED]"
+    },
+    "trustedProxies": [
+      "172.18.0.1"
+    ]
+  },
+  "session": {
+    "maintenance": {
+      "mode": "enforce",
+      "pruneAfter": "14d",
+      "maxEntries": 200
+    },
+    "dmScope": "per-channel-peer",
+    "resetByChannel": {
+      "discord": {
+        "mode": "idle",
+        "idleMinutes": 30
+      }
+    }
+  },
+  "tools": {
+    "profile": "coding",
+    "web": {
+      "search": {
+        "provider": "brave",
+        "enabled": true
+      }
+    },
+    "fs": {
+      "workspaceOnly": true
+    }
+  },
+  "plugins": {
+    "entries": {
+      "duckduckgo": {
+        "enabled": true
+      },
+      "brave": {
+        "config": {
+          "webSearch": {
+            "apiKey": "[REDACTED]"
+          }
+        },
+        "enabled": true
+      },
+      "google": {
+        "enabled": true
+      },
+      "anthropic": {
+        "enabled": true
+      },
+      "discord": {
+        "enabled": true
+      }
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-04-04T21:16:51.895Z",
+    "lastRunVersion": "2026.4.2",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.6.5",
+    "lastTouchedAt": "2026-06-10T20:12:34.583Z"
+  },
+  "channels": {
+    "discord": {
+      "enabled": true,
+      "token": "[REDACTED]",
+      "guilds": {
+        "583365254428360714": {
+          "requireMention": true,
+          "channels": {
+            "1514356167340589237": {
+              "requireMention": false
+            }
+          }
+        }
+      },
+      "actions": {
+        "channels": true
+      },
+      "intents": {
+        "guildMembers": true,
+        "presence": true
+      }
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "discord",
+        "peer": {
+          "kind": "direct",
+          "id": "583365942759653450"
+        }
+      }
+    },
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "webchat"
+      }
+    },
+    {
+      "agentId": "social",
+      "match": {
+        "channel": "webchat",
+        "peer": {
+          "kind": "direct",
+          "id": "social-op"
+        }
+      }
+    },
+    {
+      "agentId": "social",
+      "match": {
+        "channel": "discord"
+      }
+    },
+    {
+      "agentId": "informabot",
+      "match": {
+        "channel": "webchat"
+      }
+    }
+  ],
+  "logging": {
+    "level": "info"
+  },
+  "models": {
+    "providers": {
+      "anthropic": {
+        "baseUrl": "https://api.anthropic.com",
+        "models": [
+          {
+            "id": "claude-sonnet-4-6",
+            "name": "Claude Sonnet 4.6",
+            "cost": {
+              "input": 3,
+              "output": 15,
+              "cacheRead": 0.3,
+              "cacheWrite": 3.75
+            }
+          },
+          {
+            "id": "claude-opus-4-6",
+            "name": "Claude Opus 4.6",
+            "cost": {
+              "input": 5,
+              "output": 25,
+              "cacheRead": 0.5,
+              "cacheWrite": 6.25
+            }
+          }
+        ]
+      }
+    }
+  }
+}
